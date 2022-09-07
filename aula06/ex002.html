@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first program</title>
+    <style>
+        body {
+            background-color: purple;
+            color: whitesmoke;
+            font: normal 16pt Arial;
+        }
+
+        h1 {
+            color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    <p>Now i am free from the curse!</p>
+</body>
+<script>
+
+    var userName = window.prompt("What is your name?");
+    window.alert("Hello, " + name + "!"); // Concatenação em JS
+    var userYearsOld = window.prompt("How old are you?");
+    
+    if (userYearsOld < 18) {
+        window.alert("Sorry, you can't get in on this page, you are under 18 years old!")
+    } else {
+        window.alert("Ok you can get in! This page is 18+"); 
+        window.console.error();
+    }
+    
+
+
+</script>
+
+</html>

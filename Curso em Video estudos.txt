@@ -1,0 +1,10 @@
+O que é DOM?
+DOM = Document Object Model (Modelo de objetos para documentos)
+DOM dá acesso aos elementos HTML para o JavaScript
+
+Árvore DOM pode acessar elementos da arvore DOM por comandos no JavaScript como:
+por TagName
+Por ID,
+por Name,
+por ClassName,
+por querySelector,
