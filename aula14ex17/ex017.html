@@ -8,24 +8,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Title</h1>
+        <h1>Lest Count</h1>
     </header>
-
     <section>
-        <div>
-            test
+        <div id="data">
+            <p>Start: <input type="number" name="start" id="txtstart"></p>
+            <p>End: <input type="number" name="end" id="txtend"></p>
+            <p>Step: <input type="number" name="step" id="txtstep"></p>
+            <p><input type="button" value="Count" onclick="count()"></p>
         </div>
-
-        <div>
-
+        <div id="result">
+            <p>Preparing to count...</p>
         </div>
     </section>
-
     <footer>
         <p>Learning JS - CSS - HTML</p>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
